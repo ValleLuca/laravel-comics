@@ -1,7 +1,9 @@
 <div class="container container_header">
     <div class="row text-center">
         <div class="col">
-            <h2>header</h2>
+            <div class="d-flex flex-row">
+                <img src="{{$fumetti[0]}}" alt="">
+            </div>
             <div>
                 @include('partials.sectionav.nav')
             </div>
