@@ -5,3 +5,5 @@
         </div>
     </div>
 </div>
+
+@yield('listafumetti')

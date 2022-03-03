@@ -2,3 +2,20 @@
   color: blue;
 }
 
+.container_nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.container_nav ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 50px 20px;
+}
+
+.container_nav ul li a:hover {
+  color: #0383f9;
+  border-bottom: 4px solid #0383f9;
+}
+
