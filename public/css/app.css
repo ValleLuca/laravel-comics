@@ -1,21 +1,29 @@
-.container_header h2 {
-  color: blue;
+.container_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
 }
 
-.container_nav ul {
+.container_header ul {
   display: flex;
   list-style-type: none;
   justify-content: center;
 }
 
-.container_nav ul li a {
+.container_header ul li a {
   text-decoration: none;
   color: black;
   padding: 50px 20px;
 }
 
-.container_nav ul li a:hover {
+.container_header ul li a:hover {
   color: #0383f9;
   border-bottom: 4px solid #0383f9;
+}
+
+.container_main .jumbotron {
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  height: 425px;
 }
 

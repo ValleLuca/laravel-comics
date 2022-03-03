@@ -1,10 +1,10 @@
 .container_header{
-    h2{
-        color: blue;
-    }
-}
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
 
-.container_nav{
     ul {
         display: flex;
         list-style-type: none;
