@@ -22,8 +22,26 @@
   border-bottom: 4px solid #0383f9;
 }
 
+.container_main {
+  background-color: black;
+}
+
 .container_main .jumbotron {
   background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
   height: 425px;
+}
+
+.container_main .dBox {
+  width: 16%;
+  padding: 20px;
+}
+
+.container_main .dBox .margine {
+  margin-right: 20px;
+}
+
+.container_main .dBox .margine h4 {
+  color: white;
+  width: 100%;
 }
 
