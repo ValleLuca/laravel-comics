@@ -1,9 +1,25 @@
 .container_footer{
- /*  .backImage{
-  background-image: url("../assets/img/footer-bg.jpg");
-}*/
+  .backImage{
+    background-image: url("../../../public/img/footer-bg.jpg");
+    background-attachment: scroll;
+    background-position: center;
+    background-size: 110%;
+  }
+
+  .boxDC{
+    display: flex;
+  }
+  .paddingBox{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .imgOption{
+    height: 40px;
+    margin-right: 10px
+  }
   .backgroundBlue{
-    background-color: blue;
+    background-color: #0383f9;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -15,6 +31,22 @@
       div{
         margin-right: 20px;
       }
+  }
+  ul {
+    h3{
+      color: white;
+    }
+    li{
+      list-style-type: none;
+      
+      a{
+        color: grey;
+        text-decoration: none;
+        &:hover{
+          color: #0383f9;
+        }
+      }
+    }
   }
   .lastFooter{
     background-color: #313130;
